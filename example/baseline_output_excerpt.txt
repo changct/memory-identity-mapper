@@ -1,0 +1,61 @@
+# Captured from an early build, before output formatting was unified between modes.
+# Current builds print a ": N KB" size on every line (not just USER lines). Content/logic unaffected.
+
+Physical Address Range                 | Identity
+-----------------------------------------------------------------
+0x1000 - 0x9cfff | SYS: Other Active Kernel Data : 628 k
+0x100000 - 0x3fffff | FREE: Buddy System (Idle) : 3076 k
+0x400000 - 0x7fffff | SYS: Other Active Kernel Data : 4096 k
+0x800000 - 0xffffff | FREE: Buddy System (Idle) : 8192 k
+0x1000000 - 0x13fffff | SYS: Other Active Kernel Data : 4096 k
+0x1400000 - 0xfda8fff | FREE: Buddy System (Idle) : 239268 k
+0xfda9000 - 0xfda9fff | SYS: Other Active Kernel Data : 4 k
+0xfdaa000 - 0x1ecb5fff | FREE: Buddy System (Idle) : 244784 k
+0x1ecb6000 - 0x1ed0afff | SYS: Other Active Kernel Data : 340 k
+0x1ed0b000 - 0x1ee20fff | FREE: Buddy System (Idle) : 1112 k
+0x1ee21000 - 0x1ee23fff | SYS: Other Active Kernel Data : 12 k
+0x1ee24000 - 0x1f1d9fff | FREE: Buddy System (Idle) : 3800 k
+0x1f1da000 - 0x1f1e1fff | SYS: Other Active Kernel Data : 32 k
+0x1f1e2000 - 0x1f1e2fff | FREE: Buddy System (Idle) : 4 k
+0x1f1e3000 - 0x1f1fbfff | SYS: Other Active Kernel Data : 100 k
+0x1f1fc000 - 0x1fa2cfff | FREE: Buddy System (Idle) : 8388 k
+0x1fa2d000 - 0x1fa6bfff | SYS: Other Active Kernel Data : 252 k
+0x1fa6c000 - 0x21519fff | FREE: Buddy System (Idle) : 27320 k
+0x2151a000 - 0x21520fff | SYS: Other Active Kernel Data : 28 k
+0x21521000 - 0x3486cfff | FREE: Buddy System (Idle) : 314672 k
+0x3486d000 - 0x348abfff | SYS: Other Active Kernel Data : 252 k
+0x348ac000 - 0x447fffff | FREE: Buddy System (Idle) : 261456 k
+0x44800000 - 0x44807fff | SYS: Slab/Slub (Kernel Objects) : 32 k
+0x44808000 - 0x4f7b8fff | FREE: Buddy System (Idle) : 179908 k
+0x4f7b9000 - 0x4f96efff | SYS: Other Active Kernel Data : 1752 k
+0x4f96f000 - 0x4fbfffff | FREE: Buddy System (Idle) : 2628 k
+0x4fc00000 - 0x4fd7ffff | SYS: Other Active Kernel Data : 1536 k
+0x4fd80000 - 0x4fdbafff | FREE: Buddy System (Idle) : 236 k
+0x4fdbb000 - 0x4fde0fff | SYS: Other Active Kernel Data : 152 k
+0x4fde1000 - 0x53982fff | FREE: Buddy System (Idle) : 61064 k
+0x53985000 - 0x543fffff | FREE: Buddy System (Idle) : 10736 k
+0x54400000 - 0x54514fff | SYS: Other Active Kernel Data : 1108 k
+0x54515000 - 0x54515fff | FREE: Buddy System (Idle) : 4 k
+0x54516000 - 0x5451ffff | SYS: Other Active Kernel Data : 40 k
+0x54520000 - 0x54536fff | FREE: Buddy System (Idle) : 92 k
+0x54537000 - 0x54537fff | SYS: Slab/Slub (Kernel Objects) : 4 k
+0x54538000 - 0x5453ffff | FREE: Buddy System (Idle) : 32 k
+0x54540000 - 0x5455ffff | SYS: Other Active Kernel Data : 128 k
+0x54560000 - 0x5457ffff | FREE: Buddy System (Idle) : 128 k
+0x54580000 - 0x545adfff | SYS: Other Active Kernel Data : 184 k
+0x545ae000 - 0x545b5fff | FREE: Buddy System (Idle) : 32 k
+0x545b6000 - 0x545bffff | SYS: Other Active Kernel Data : 40 k
+0x545c0000 - 0x545effff | FREE: Buddy System (Idle) : 192 k
+0x545f0000 - 0x545f3fff | SYS: Other Active Kernel Data : 16 k
+0x545f4000 - 0x545f7fff | FREE: Buddy System (Idle) : 16 k
+0x545f8000 - 0x545f9fff | SYS: Other Active Kernel Data : 8 k
+0x545fa000 - 0x545fffff | FREE: Buddy System (Idle) : 24 k
+0x54600000 - 0x54616fff | SYS: Other Active Kernel Data : 92 k
+
+... (truncated — full run had ~2600 lines) ...
+
+0x88d6f7000 - 0x88d6f7fff | FREE: Buddy System (Idle) : 4 k
+0x88d6f8000 - 0x88d6f8fff | SYS: Other Active Kernel Data : 4 k
+0x88d6f9000 - 0x88d6fafff | FREE: Buddy System (Idle) : 8 k
+0x88d6fb000 - 0x88d7fefff | SYS: Other Active Kernel Data : 1040 k
+system use size : 882 MB

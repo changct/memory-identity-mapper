@@ -1,0 +1,61 @@
+# Captured from an early build, before output formatting was unified between modes.
+# Current builds print a ": N KB" size on every line (not just USER lines). Content/logic unaffected.
+
+--- Memory Analysis Report (Request Size: 30450m) ---
+Physical Address Range                 | Identity
+-----------------------------------------------------------------
+0x1000 - 0x9cfff | SYS: Other Active Kernel Data
+0x100000 - 0x3fffff | FREE: Buddy System (Idle)
+0x400000 - 0x7fffff | SYS: Other Active Kernel Data
+0x800000 - 0xffffff | FREE: Buddy System (Idle)
+0x1000000 - 0x13fffff | SYS: Other Active Kernel Data
+0x1400000 - 0xfbfffff | FREE: Buddy System (Idle)
+0xfc00000 - 0xfda8fff | USER (program Allocated) : 1700 k
+0xfda9000 - 0xfda9fff | SYS: Other Active Kernel Data
+0xfdaa000 - 0xfffffff | USER (program Allocated) : 2392 k
+0x10000000 - 0x1ebfffff | FREE: Buddy System (Idle)
+0x1ec00000 - 0x1ecb5fff | USER (program Allocated) : 728 k
+0x1ecb6000 - 0x1ed0afff | SYS: Other Active Kernel Data
+0x1ed0b000 - 0x1ee20fff | USER (program Allocated) : 1112 k
+0x1ee21000 - 0x1ee23fff | SYS: Other Active Kernel Data
+0x1ee24000 - 0x1f1d9fff | USER (program Allocated) : 3800 k
+0x1f1da000 - 0x1f1fefff | SYS: Other Active Kernel Data
+0x1f1ff000 - 0x1f3fffff | USER (program Allocated) : 2052 k
+0x1f400000 - 0x1f7fffff | FREE: Buddy System (Idle)
+0x1f800000 - 0x1fbb8fff | SYS: Other Active Kernel Data
+0x1fbb9000 - 0x1fbfffff | FREE: Buddy System (Idle)
+0x1fc00000 - 0x20bfffff | SYS: Other Active Kernel Data
+0x20c00000 - 0x20ffffff | USER (program Allocated) : 4096 k
+0x21000000 - 0x213fffff | SYS: Other Active Kernel Data
+0x21400000 - 0x21519fff | USER (program Allocated) : 1128 k
+0x2151a000 - 0x21520fff | SYS: Other Active Kernel Data
+0x21521000 - 0x3486cfff | USER (program Allocated) : 314672 k
+0x3486d000 - 0x348abfff | SYS: Other Active Kernel Data
+0x348ac000 - 0x3b2bffff | USER (program Allocated) : 108624 k
+0x3b2c0000 - 0x447fffff | SYS: Other Active Kernel Data
+0x44800000 - 0x44807fff | SYS: Slab/Slub (Kernel Objects)
+0x44808000 - 0x49bfffff | FREE: Buddy System (Idle)
+0x49c00000 - 0x4f3fffff | SYS: Other Active Kernel Data
+0x4f400000 - 0x4f7b8fff | USER (program Allocated) : 3812 k
+0x4f7b9000 - 0x4f96efff | SYS: Other Active Kernel Data
+0x4f96f000 - 0x4fbfffff | USER (program Allocated) : 2628 k
+0x4fc00000 - 0x4fd83fff | SYS: Other Active Kernel Data
+0x4fd84000 - 0x4fd9ffff | FREE: Buddy System (Idle)
+0x4fda0000 - 0x4fdbafff | SYS: Page Tables (Mapping Info)
+0x4fdbb000 - 0x4fde0fff | SYS: Other Active Kernel Data
+0x4fde1000 - 0x4fdfffff | SYS: Page Tables (Mapping Info)
+0x4fe00000 - 0x4fffffff | FREE: Buddy System (Idle)
+0x50000000 - 0x537fffff | SYS: Other Active Kernel Data
+0x53800000 - 0x53982fff | USER (program Allocated) : 1552 k
+0x53985000 - 0x53bfffff | USER (program Allocated) : 2540 k
+0x53c00000 - 0x543fffff | FREE: Buddy System (Idle)
+0x54400000 - 0x54514fff | SYS: Other Active Kernel Data
+0x54515000 - 0x54515fff | SYS: Page Tables (Mapping Info)
+
+... (truncated — full run had ~3000 lines) ...
+
+0x88d6e0000 - 0x88d6eefff | SYS: Other Active Kernel Data
+0x88d6ef000 - 0x88d6effff | USER (program Allocated) : 4 k
+0x88d6f0000 - 0x88d7fefff | SYS: Other Active Kernel Data
+test size : 30450 MB
+system use size : 1291 MB

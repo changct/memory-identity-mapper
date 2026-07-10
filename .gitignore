@@ -1,0 +1,8 @@
+# Compiled binary
+memory_identity_mapper
+*.o
+
+# Generated reports (regenerate these by running the tool;
+# curated real samples live in examples/ instead)
+memory_identity_map.txt
+memory_baseline_map.txt
